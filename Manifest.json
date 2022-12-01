@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "twitterScraper",
+    "description": "This extension scrapes Twitter User Profiles and exports them in JSON format file!",
+    "version": "1.0",
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "window.html"
+    },
+    "icons": {
+        "128": "icon.png"
+    },
+    "background" : {
+        "scripts" : ["background.js"]
+    },
+    "permissions" : [
+        "https://twitter.com/*"
+    ]
+}
